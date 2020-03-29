@@ -1,0 +1,86 @@
+:root {
+    --main-bg: #fff;
+    --main-color: #000;
+    font-size: calc(0.5em + 1vw);
+}
+
+body {
+    line-height: 1.2;
+}
+
+p {
+    font-family: var(--main-font);
+    color: var(--secondary-color, blue);
+}
+
+.about-us {
+    font-size: 2em;
+}
+
+.slogan {
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: #ccc;
+}
+
+.padded {
+    font-size: 16px;
+    padding: 1em;
+}
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgrey;
+}
+
+.box-small {
+    font-size: 12px;
+}
+
+.box-large {
+    font-size: 18px;
+}
+
+ul {
+    font-size: .8rem;
+}
+
+ul ul {
+    font-size: 1em;
+}
+
+
+.panel {
+    font-size: 1rem;
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+    background-color: var(--main-bg);
+    color: var(--main-color);
+}
+
+.panel.large {
+    font-size: 1.2rem;
+}
+
+.dark {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #999;
+    --main-bg: #333;
+    --main-color: #fff;
+}
+
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.square {
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #369;
+}
