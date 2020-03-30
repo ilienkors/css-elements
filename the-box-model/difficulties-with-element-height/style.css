@@ -27,22 +27,19 @@ main {
 }
 
 .container {
-    display: table;
-    width: 100%;
-    border-spacing: 1.5em 0;
+    display: flex;
 }
 
 .main {
-    display: table-cell;
     width: 70%;
     background-color: #fff;
-    border-radius: .5em;
+    border-radius: 0.5em;
 }
 
 .sidebar {
-    display: table-cell;
     width: 30%;
     padding: 1.5em;
+    margin-left: 1.5em;
     background-color: #fff;
     border-radius: .5em;
 }
